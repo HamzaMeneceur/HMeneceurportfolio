@@ -1,0 +1,80 @@
+button {
+	width: 180px;
+	color: #000;
+	font-size: 12px;
+	padding: 12px 0;
+	background: #fff;
+	border: 0;
+	border-radius: 20px;
+	outline: none;
+	margin-top: 30px;
+}
+button a:link {
+color: #000080;
+}
+button a:visited {
+color: #000080;
+}
+button a:hover {
+color: #000080;
+}
+button a:active {
+color: #000080;
+}
+
+.pic-text {
+	display: flex;
+	height: 88%;
+	align-items: center;
+}
+
+.col {
+	flex flex-basis: 50%;
+}
+
+.pic-text h1 {
+	color: #fff;
+	font-size: 50px;
+}
+
+.pic-text p {
+	color: #fff;
+	font-size: 20px;
+	line-height: 20px;
+
+}
+
+.card{
+	width: 400px;
+	height: 300px;
+	display: inline-block;
+	border-radius: 10px;
+	padding: 15px 25px;
+	box-sizing: border-box;
+	cursor: pointer;
+	margin: 10px 15px;
+	background-position: center;
+	background-size: cover;
+	transition: transform 0.5s;
+}
+.card1{
+	background-image: url(img/dev-web.webp);	
+}
+.card2{
+	background-image: url(img/data-center.jpg);	
+}
+.card3{
+	background-image: url(img/imagine.webp);	
+}
+.card:hover{
+	transform: translateY(-10px);
+}
+h5 {
+	color: #F5F5F5;
+	text-shadow: 0 0 5px #999;
+}
+.card p {
+	color: #f5f5f5;
+	text-shadow: 0 0 15px #000;
+	font-size: 9px;
+}

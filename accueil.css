@@ -1,0 +1,30 @@
+.text {
+	display: flex;
+	height: 88%;
+	align-items: center;
+ }
+ .row{
+ 	flex-basis: 50%;
+ }
+
+.text h1 {
+	color: #fff;
+	font-size: 70px;
+}
+
+.text p {
+	color: #fff;
+	font-size: 28px;
+}
+
+.moi{
+	width: 100%;
+	padding: 78px 0px;
+}
+.moi-text{
+	width: 550px;
+}
+.auto-typing{
+	color: #f9004d;
+	font-family: fantasy;
+}

@@ -1,0 +1,36 @@
+
+.groupement p{
+	color: #fff;
+	font-size: 30px;
+	line-height: 30px;
+	margin-bottom: 20px;
+	padding-top: 100px;
+	padding-left: 15px;
+	letter-spacing: 1px;
+}
+.card {
+	width: 350px;
+	height: 175px;
+	display: inline-block;
+	border-radius: 10px;
+	padding: 15px 25px;
+	box-sizing: border-box;
+	cursor: pointer;
+	margin: 10px 15px;
+	background-position: center;
+	background-size: cover;
+}
+.email{
+background-image: url('picontact/email.jpg');
+}
+.github{
+background-image: url('picontact/github.png');
+}
+.linkedin{
+background-image: url('picontact/linkedin.webp');
+}
+.discord{
+background-image: url('picontact/discord.jpg');
+}
+
+
